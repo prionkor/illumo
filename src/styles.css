@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  height: 100%;
+  color: theme("colors.white");
+}
+
+.logo {
+  background: url(./images/illumo-logo.svg) no-repeat center center;
+  background-size: contain;
+}
+
+a {
+  color: theme("colors.white");
+}
